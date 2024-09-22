@@ -79,3 +79,16 @@ body {
 .logout-button:hover {
   background-color: #c82333; /* Darker shade on hover */
 }
+ 
+.register-link {
+  display: block; /* Makes the link a block element */
+  margin-top: 15px; /* Adds some space above the link */
+  text-align: center; /* Centers the link horizontally */
+  text-decoration: none; /* Removes underline */
+  color: blue; /* Change this to your desired color */
+  font-weight: bold; /* Makes the text bold */
+}
+
+.register-link:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}

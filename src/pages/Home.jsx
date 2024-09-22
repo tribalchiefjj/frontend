@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+    const navigate = useNavigate();
+
     const handleLogout = () => {
         localStorage.clear(); // Clear local storage
-        window.location.href = '/login'; // Redirect to the login page
+        navigate('/login'); // Redirect to the login page
     };
 
     return (
